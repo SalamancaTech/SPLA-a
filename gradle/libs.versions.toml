@@ -1,0 +1,10 @@
+# This file defines the versions and aliases for plugins and dependencies.
+# https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog-format
+
+[versions]
+androidGradlePlugin = "8.1.2"
+kotlin = "1.8.10"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
